@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-09-04 21:11:34
- * @LastEditTime: 2021-09-04 22:05:41
+ * @LastEditTime: 2021-09-05 21:19:32
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /recruitment-system-service/config/config.default.js
@@ -38,33 +38,33 @@ module.exports = appInfo => {
     //   // 是否加载到 agent 上，默认关闭
     //   agent: false,
     // },
-    sequelize: {
-      // 数据库类型
-      dialect: "mysql",
-      // host
-      host: "127.0.0.1",
-      // 端口号
-      port: "3306",
-      // 用户名
-      username: "root",
-      // 密码
-      password: "root",
-      // 数据库名
-      database: "mysql",
-      // 保存为本地时区
-      timezone: "+08:00",
-      // 查询时间
-      dialectOptions: {
-        dateStrings: true,
-        typeCast(field, next) {
-          // for reading from database
-          if (field.type === "DATETIME") {
-            return field.string();
-          }
-          return next();
-        },
-      },
-    },
+    // sequelize: {
+    //   // 数据库类型
+    //   dialect: "mysql",
+    //   // host
+    //   host: "127.0.0.1",
+    //   // 端口号
+    //   port: "3306",
+    //   // 用户名
+    //   username: "root",
+    //   // 密码
+    //   password: "root",
+    //   // 数据库名
+    //   database: "mysql",
+    //   // 保存为本地时区
+    //   timezone: "+08:00",
+    //   // 查询时间
+    //   dialectOptions: {
+    //     dateStrings: true,
+    //     typeCast(field, next) {
+    //       // for reading from database
+    //       if (field.type === "DATETIME") {
+    //         return field.string();
+    //       }
+    //       return next();
+    //     },
+    //   },
+    // },
   
   }
 

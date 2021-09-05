@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-09-04 21:11:34
- * @LastEditTime: 2021-09-04 22:05:44
+ * @LastEditTime: 2021-09-05 21:21:40
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /recruitment-system-service/config/plugin.js
@@ -19,8 +19,8 @@ module.exports = {
   //   package: 'egg-mysql',
   // },
   // Sequelize插件
-  sequelize: {
-    enable: true,
-    package: 'egg-sequelize',
-  },
+  // sequelize: {
+  //   enable: true,
+  //   package: 'egg-sequelize',
+  // },
 };
